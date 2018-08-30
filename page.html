@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>
+            OTP GENERATOR WEBPAGE
+        </title>
+        <meta charset="UTF-8"> 
+        
+    </head>
+    <body>
+        <h1 style="color: red";"font-size:50px">OTP GENERATOR</h1>
+        <marquee behavior="scroll" direction="left" style="font-size: 30px">Enter Mobile Number With Country Code</marquee>
+        <div class="new">
+            <input type="number" id="my text" placeholder="mobile number" style="float: center">
+        </div>
+        <div class="new">
+            <button class="button" onclick="myFunction()">send otp</button>
+        </div>
+        <div class="new1">
+            <input type ="number" id="verify" placeholder="otp" >
+            </div>
+        <div class ="new2">
+            <button class ="button1" onclick="verifyotp()" >verify</button>
+        </div>
+        <script src="jquery-1.11.0.min.js"></script>
+        <script src="myjs.js"></script>
+        
+    </body>
+   
+    
+    <style>
+        body,html{
+            background-image: url("a5.jpeg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        h1{
+            top:50px;
+            position: relative;
+            color: red;
+            text-align: center;
+        }
+        marquee{
+            top: 75px;
+            position: relative;
+            color: green;
+
+        }
+        .new{
+            text-align: center;
+        }
+        
+        input{
+            top:100px;
+            position: relative;
+            text-align: center;
+            width: 15%;
+            height: 5%;
+
+        }
+        
+        
+        input[type=number]:focus {
+            top:100px;
+            position: relative;
+            background-color: azure;
+             color: blue;
+             border:3px solid green;
+             text-align: center;
+             width: 15%;
+             height: 5%;
+            }
+
+        button {
+            position: relative;
+            top:150px;
+            cursor: pointer;
+            background-color: rgb(240, 20, 86);
+            color:black;
+            text-align: center;
+            text-decoration:none;
+            border-radius: 12px;
+            width: 10%;
+            height: 5%;
+            
+        }
+        .new1, .new2{
+            text-align: center;
+        }
+        
+        .new1 #verify{
+            top:250px;
+            position: relative;
+            text-align: center;
+            width: 10%;
+            height: 5%;
+
+        }
+        .new2 .button1{
+            top:300px;
+            position: relative;
+            text-align: center;
+            width: 10%;
+            height: 5%;
+        }
+    
+        
+    </style>
+</html>
